@@ -117,7 +117,7 @@ public class Camera extends ActivityBase implements FocusManager.Listener,
     private static final int ZOOM_STOPPING = 2;
 
     private int mZoomState = ZOOM_STOPPED;
-    private boolean mSmoothZoomSupported = false;
+    private boolean mSmoothZoomSupported = true;
     private int mZoomValue;  // The current zoom value.
     private int mZoomMax;
     private int mTargetZoomValue;
